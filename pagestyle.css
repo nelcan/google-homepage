@@ -1,0 +1,27 @@
+img {
+    position: relative;
+    left: 500px;
+    right: 500px;
+    padding-bottom: 20px;
+}
+input {
+position: relative;
+left: 325px;
+right: 300px;
+width: 600px;
+height: 40px;
+border: rgb(241, 238, 238) solid 0.1px;
+box-shadow: rgb(207, 205, 205);
+border-radius: 50px;   
+}
+button {
+    position: relative;
+    left: 500px;
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 15px;
+    padding: 4px;
+    border: rgb(236, 233, 233) solid 0.2px;
+    background-color: rgb(236, 233, 233);
+}
