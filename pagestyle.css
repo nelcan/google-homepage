@@ -23,31 +23,53 @@ button {
     margin-right: 4px;
     font-size: 15px;
     padding: 4px;
-    border: rgb(236, 233, 233) solid 0.2px;
-    background-color: rgb(236, 233, 233);
+    border: rgb(241, 237, 237) solid 0.2px;
+    background-color: rgb(241, 237, 237);
+}
+.search {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .upper {
     position: absolute;
     top: 5px;
     right: 5px;
 }
+.format {
+    background-color: gray;
+    border-width: 20px;
+    border-radius: 80px;
+}
 .lower {
     position: absolute;
     bottom: 0px;
     left: 0px;
-    background-color: gray;
-    width: 1290px;
-    height: 25px;  
+    background-color: rgba(240, 230, 230, 0.973);
+    border:rgba(240, 230, 230, 0.973) solid 2px;
+    width: 1312px;
+    height: 25px; 
+    padding-top: 10px; 
+    padding-bottom: 6px;
+}
+span {
+    position: absolute;
+    right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 a{
     font-family: Arial, Helvetica, sans-serif;  
     color: black;
-    font-size: 12px;
-    padding-left: 5px;
-    padding-right: 5px;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 5px;
 }
 a:link {
     outline: none;
     text-decoration: none;
+}
+a:hover {
+    border-bottom: solid black 1px;
+    box-decoration-break: initial;
 }
