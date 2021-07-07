@@ -2,6 +2,7 @@ img {
     position: relative;
     left: 500px;
     right: 500px;
+    margin-top: 80px;
     padding-bottom: 20px;
 }
 input {
@@ -29,16 +30,24 @@ button {
     position: absolute;
     top: 5px;
     right: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 .lower {
     position: absolute;
     bottom: 0px;
     left: 0px;
     background-color: gray;
-    width: 1318px;
+    width: 1290px;
     height: 25px;  
+}
+a{
     font-family: Arial, Helvetica, sans-serif;  
-    padding: 10px;
+    color: black;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+a:link {
+    outline: none;
+    text-decoration: none;
 }
