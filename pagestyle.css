@@ -25,3 +25,20 @@ button {
     border: rgb(236, 233, 233) solid 0.2px;
     background-color: rgb(236, 233, 233);
 }
+.upper {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lower {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: gray;
+    width: 1318px;
+    height: 25px;  
+    font-family: Arial, Helvetica, sans-serif;  
+    padding: 10px;
+}
