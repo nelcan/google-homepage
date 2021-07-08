@@ -1,6 +1,6 @@
 img {
     position: relative;
-    left: 500px;
+    left: 550px;
     right: 500px;
     margin-top: 80px;
     padding-bottom: 20px;
@@ -9,36 +9,40 @@ input {
 position: relative;
 left: 325px;
 right: 300px;
-width: 600px;
+width: 580px;
 height: 40px;
-border: rgb(241, 238, 238) solid 0.1px;
-box-shadow: rgb(207, 205, 205);
-border-radius: 50px;   
+border: rgb(221, 216, 216) solid 0.1px;
+box-shadow: rgb(180, 176, 176);
+border-radius: 50px;
+padding-right: 40px;
+padding-left: 50px;
+opacity: 0.5;   
+}
+.material-icons {
+    position: relative;
+    left: 362px;
+    top: 8px;
+    size: 5px;
 }
 button {
     position: relative;
-    left: 500px;
+    left: 520px;
     margin-top: 10px;
     margin-left: 4px;
     margin-right: 4px;
     font-size: 15px;
-    padding: 4px;
-    border: rgb(241, 237, 237) solid 0.2px;
-    background-color: rgb(241, 237, 237);
+    padding: 6px;
+    border: rgb(245, 240, 240) solid 0.2px;
+    background-color: rgb(255, 246, 246);
 }
 .search {
     padding-left: 15px;
     padding-right: 15px;
 }
 .upper {
-    position: absolute;
+    position: relative;
     top: 5px;
-    right: 5px;
-}
-.format {
-    background-color: gray;
-    border-width: 20px;
-    border-radius: 80px;
+    right: 15px;
 }
 .lower {
     position: absolute;
@@ -46,10 +50,11 @@ button {
     left: 0px;
     background-color: rgba(240, 230, 230, 0.973);
     border:rgba(240, 230, 230, 0.973) solid 2px;
-    width: 1315px;
+    width: 1315.6px;
     height: 25px; 
     padding-top: 10px; 
     padding-bottom: 6px;
+    color: rgb(66, 63, 63);
 }
 span {
     position: absolute;
