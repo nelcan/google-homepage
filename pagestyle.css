@@ -7,9 +7,9 @@ img {
 }
 input {
 position: relative;
-left: 325px;
+left: 320px;
 right: 300px;
-width: 580px;
+width: 540px;
 height: 40px;
 border: rgb(221, 216, 216) solid 0.1px;
 box-shadow: rgb(180, 176, 176);
@@ -20,9 +20,9 @@ opacity: 0.5;
 }
 .material-icons {
     position: relative;
-    left: 362px;
-    top: 8px;
-    size: 5px;
+    left: 355px;
+    top: 5px;
+    font-size: 20px;
 }
 button {
     position: relative;
@@ -32,19 +32,19 @@ button {
     margin-right: 4px;
     font-size: 15px;
     padding: 6px;
-    border: rgb(245, 240, 240) solid 0.2px;
-    background-color: rgb(255, 246, 246);
+    border: rgb(240, 230, 230) solid 0.2px;
+    background-color: rgb(240, 230, 230);
 }
 .search {
     padding-left: 15px;
     padding-right: 15px;
 }
-.upper {
+.topnav {
     position: relative;
-    top: 5px;
-    right: 15px;
+    left: 1020px; 
+    margin-top: 10px;
 }
-.lower {
+.bottomnav {
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -52,15 +52,25 @@ button {
     border:rgba(240, 230, 230, 0.973) solid 2px;
     width: 1315.6px;
     height: 25px; 
-    padding-top: 10px; 
-    padding-bottom: 6px;
+    padding-top: 1px; 
+    padding-bottom: 20px;
     color: rgb(66, 63, 63);
+    font-size: 18px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
 }
 span {
-    position: absolute;
+    position: relative;
     right: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
+    left: 600px;
+}
+.topicons {
+    padding: 0;
+    left: 0px;
 }
 a{
     font-family: Arial, Helvetica, sans-serif;  
@@ -69,7 +79,6 @@ a{
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
-    border-right: initial;
 }
 a:link {
     outline: none;
